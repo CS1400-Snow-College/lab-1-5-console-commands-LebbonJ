@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Data;
+
 Console.Clear();
 
 Console.BackgroundColor = ConsoleColor.DarkCyan;
@@ -110,6 +112,8 @@ Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(26,0);
 Console.Write(" ");
 
+//Row 1
+
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(0,1);
 Console.Write(" ");
@@ -217,7 +221,9 @@ Console.Write(" ");
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(26,1);
 Console.Write(" ");
-//
+
+//row 2
+
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(0,2);
 Console.Write(" ");
@@ -326,6 +332,8 @@ Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(26,2);
 Console.Write(" ");
 
+//Row 3
+
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(0,3);
 Console.Write(" ");
@@ -386,7 +394,7 @@ Console.BackgroundColor = ConsoleColor.White;
 Console.SetCursorPosition(14,3);
 Console.Write(" ");
 
-Console.BackgroundColor = ConsoleColor.Black;
+Console.BackgroundColor = ConsoleColor.White;
 Console.SetCursorPosition(15,3);
 Console.Write(" ");
 
@@ -394,7 +402,7 @@ Console.BackgroundColor = ConsoleColor.Black;
 Console.SetCursorPosition(16,3);
 Console.Write(" ");
 
-Console.BackgroundColor = ConsoleColor.White;
+Console.BackgroundColor = ConsoleColor.Black;
 Console.SetCursorPosition(17,3);
 Console.Write(" ");
 
@@ -402,7 +410,7 @@ Console.BackgroundColor = ConsoleColor.White;
 Console.SetCursorPosition(18,3);
 Console.Write(" ");
 
-Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.BackgroundColor = ConsoleColor.White;
 Console.SetCursorPosition(19,3);
 Console.Write(" ");
 
@@ -433,3 +441,446 @@ Console.Write(" ");
 Console.BackgroundColor = ConsoleColor.DarkCyan;
 Console.SetCursorPosition(26,3);
 Console.Write(" ");
+
+//row 4
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(0,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(1,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(2,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(3,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(4,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(5,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(6,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(7,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(8,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(9,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(11,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(12,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(13,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(14,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(15,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(16,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(17,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(18,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(19,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(20,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(21,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(22,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(23,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(24,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(25,4);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(26,4);
+Console.Write(" ");
+
+//Row 5
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(0,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(1,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(2,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(3,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(4,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(5,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(6,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(7,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(8,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(9,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(10,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(11,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(12,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(13,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(14,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(15,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(16,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(17,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(18,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(19,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(20,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(21,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(22,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(23,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(24,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(25,5);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(26,0);
+Console.Write(" ");
+
+//Row 6
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(0,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(1,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(2,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(3,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(4,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(5,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(6,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(7,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(8,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(9,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(11,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(12,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(13,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(14,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(15,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(16,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(17,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(18,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(19,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(20,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(21,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(22,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(23,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(24,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(25,6);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(26,6);
+Console.Write(" ");
+
+//Row 7
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(0,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(1,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(2,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(3,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(4,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(5,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(6,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(7,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(8,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(9,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(11,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(12,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(13,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(14,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(15,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(16,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(17,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(18,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(19,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(20,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.White;
+Console.SetCursorPosition(21,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(22,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(23,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(24,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(25,7);
+Console.Write(" ");
+
+Console.BackgroundColor = ConsoleColor.DarkCyan;
+Console.SetCursorPosition(26,7);
+Console.Write(" ");
+
+//Row 8
+
