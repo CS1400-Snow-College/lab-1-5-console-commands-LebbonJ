@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-5-console-commands-LebbonJ")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c93cc4cc90043143f9de5bec18b8e3d136ac047c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4754f40aae0a3f242543cc9e09823e42c5ddc19b")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-5-console-commands-LebbonJ")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-5-console-commands-LebbonJ")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
